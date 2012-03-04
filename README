@@ -1,0 +1,11 @@
+This repository contains code that implements a fixed point optimization for Independent Subspace Analysis that was used in 
+
+A. Hyvärinen and U. Köster. 
+FastISA: A fast fixed-point algorithm for Independent Subspace Analysis 
+ESANN2006: 14th European Symposioum on Artificial Neural Networks 
+
+avaliable at http://www.cs.helsinki.fi/u/koster/pubs/ESANN2006-revision.pdf
+
+the ISA code is implemented in Matlab and can be run by calling, for example
+fastisa(20,20,10000,4,100,0)
+from the Matlab prompt.
